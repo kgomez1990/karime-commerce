@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
       attributes: ["id", "category_name"]
     }],
     include: [{
-      model: Category,
+      model: Tag,
       attributes: ["id", "tag_name"]
     }]
   }).then((product) => {

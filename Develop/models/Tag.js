@@ -13,7 +13,7 @@ Tag.init(
       allowNull: false,
       primaryKey: true
     },
-    category_name: {
+    tag_name: {
       type: DataTypes.STRING
     }
   },
